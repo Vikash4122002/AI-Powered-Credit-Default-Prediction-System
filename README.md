@@ -1,39 +1,28 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=850&lines=AI+Credit+Default+Prediction+System;XGBoost+%7C+LightGBM+%7C+Stacking+Ensemble;FastAPI+%7C+Docker+%7C+AWS+EC2+%7C+Streamlit;End-to-End+Machine+Learning+Deployment" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=AI+Credit+Default+Prediction+System;XGBoost+%7C+LightGBM+%7C+Stacking+Ensemble;FastAPI+%7C+Docker+%7C+AWS+EC2+%7C+Streamlit;End-to-End+MLOps+Deployment" alt="Typing SVG" />
 
 <br/>
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
-
-[![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
-
+[![AWS](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-
 [![XGBoost](https://img.shields.io/badge/XGBoost-0078D4?style=for-the-badge&logo=python&logoColor=white)](#)
-
 [![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=for-the-badge&logo=python&logoColor=white)](#)
-
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <br/>
 
-> **30,000 credit card clients · Stacking Ensemble Machine Learning · FastAPI REST API · Dockerized Deployment · AWS EC2 Hosting · 76.2% ROC-AUC**
+> **30,000 credit card clients · Stacking Ensemble ML · FastAPI REST API · Dockerized · Deployed on AWS EC2 · 76.2% ROC-AUC**
 
 <br/>
 
-[![Live API](https://img.shields.io/badge/🚀_Live_API-Online-brightgreen?style=for-the-badge)](http://3.109.32.46:8000/docs)
-
-[![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](http://3.109.32.46:8000/docs)
-
-[![Health Check](https://img.shields.io/badge/💚_Health_Check-Healthy-success?style=for-the-badge)](http://3.109.32.46:8000/health)
-
+[![Live API](https://img.shields.io/badge/🚀_Live_API-EC2_Deployed-brightgreen?style=for-the-badge)](#-aws-ec2-deployment)
+[![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](#2-interactive-swagger-docs)
+[![Health Check](https://img.shields.io/badge/💚_Health_Check-Online-success?style=for-the-badge)](#1-health-check)
 [![Docker Hub](https://img.shields.io/badge/🐳_Docker_Hub-vikash4122002-2496ED?style=for-the-badge)](https://hub.docker.com/r/vikash4122002/credit-default-api)
 
 </div>
