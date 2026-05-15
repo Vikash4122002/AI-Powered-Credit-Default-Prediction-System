@@ -74,18 +74,19 @@ This project covers a real-world financial risk workflow — going from raw data
 
 ## 🔗 Live Demo Links
 
-> ⚠️ **Note:** The API is hosted on AWS EC2. Replace `<EC2-PUBLIC-IP>` with the current instance IP if it changes after a restart. The active IP at time of publishing is `3.109.32.46`. To avoid this, assign an **Elastic IP** in the AWS Console.
+> ⚠️ **Note:** The API is deployed on AWS EC2.  
+> The current public IP is: `3.109.32.46`  
+> If the EC2 instance is restarted, the public IP may change unless an **Elastic IP** is attached.
 
 | Resource | URL |
 |---|---|
-| 🚀 **Live API Base** | `http://<EC2-PUBLIC-IP>:8000` |
-| 📖 **Swagger UI (Interactive Docs)** | `http://<EC2-PUBLIC-IP>:8000/docs` |
-| 💚 **Health Monitoring Endpoint** | `http://<EC2-PUBLIC-IP>:8000/health` |
+| 🚀 **Live API Base** | http://3.109.32.46:8000 |
+| 📖 **Swagger UI (Interactive Docs)** | http://3.109.32.46:8000/docs |
+| 💚 **Health Monitoring Endpoint** | http://3.109.32.46:8000/health |
 | 🐳 **Docker Hub Image** | `docker pull vikash4122002/credit-default-api:latest` |
-| 💻 **GitHub Repository** | [github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System](https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System) |
+| 💻 **GitHub Repository** | https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System |
 
 ---
-
 ## 🏆 Key Results at a Glance
 
 <div align="center">
