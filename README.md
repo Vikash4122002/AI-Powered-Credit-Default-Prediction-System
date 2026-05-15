@@ -1,54 +1,64 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=AI+Credit+Default+Prediction+System;XGBoost+%7C+LightGBM+%7C+Stacking+Ensemble;FastAPI+%7C+Docker+%7C+AWS+EC2+%7C+Streamlit;End-to-End+MLOps+Deployment" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=850&lines=AI+Credit+Default+Prediction+System;XGBoost+%7C+LightGBM+%7C+Stacking+Ensemble;FastAPI+%7C+Docker+%7C+AWS+EC2+%7C+Streamlit;End-to-End+Machine+Learning+Deployment" alt="Typing SVG" />
 
 <br/>
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
+
 [![AWS](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+
 [![XGBoost](https://img.shields.io/badge/XGBoost-0078D4?style=for-the-badge&logo=python&logoColor=white)](#)
+
 [![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=for-the-badge&logo=python&logoColor=white)](#)
+
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <br/>
 
-> **30,000 credit card clients · Stacking Ensemble ML · FastAPI REST API · Dockerized · Deployed on AWS EC2 · 76.2% ROC-AUC**
+> **AI-powered credit default prediction system using Stacking Ensemble Machine Learning, FastAPI, Docker, AWS EC2, and Streamlit.**
 
 <br/>
 
-[![Live API](https://img.shields.io/badge/🚀_Live_API-EC2_Deployed-brightgreen?style=for-the-badge)](#-aws-ec2-deployment)
-[![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](#2-interactive-swagger-docs)
-[![Health Check](https://img.shields.io/badge/💚_Health_Check-Online-success?style=for-the-badge)](#1-health-check)
+[![Live API](https://img.shields.io/badge/🚀_Live_API-EC2_Deployed-brightgreen?style=for-the-badge)](http://3.109.32.46:8000/docs)
+
+[![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](http://3.109.32.46:8000/docs)
+
+[![Health Check](https://img.shields.io/badge/💚_Health_Check-Online-success?style=for-the-badge)](http://3.109.32.46:8000/health)
+
 [![Docker Hub](https://img.shields.io/badge/🐳_Docker_Hub-vikash4122002-2496ED?style=for-the-badge)](https://hub.docker.com/r/vikash4122002/credit-default-api)
 
 </div>
 
 ---
 
-## 📌 Table of Contents
+# 📌 Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Live Demo Links](#-live-demo-links)
-- [Key Results at a Glance](#-key-results-at-a-glance)
-- [System Architecture](#-system-architecture)
-- [Machine Learning Pipeline](#-machine-learning-pipeline)
-- [Model Performance](#-model-performance)
-- [Screenshots](#-screenshots)
-- [API Endpoints](#-api-endpoints)
-- [Docker Deployment](#-docker-deployment)
-- [AWS EC2 Deployment](#-aws-ec2-deployment)
-- [Streamlit Frontend](#-streamlit-frontend)
-- [Business Context](#-business-context)
-- [Tech Stack & Skills Used](#-tech-stack--skills-used)
-- [Project Structure](#-project-structure)
-- [Recruiter Demo Guide](#-recruiter-demo-guide)
-- [Installation & Setup](#-installation--setup)
-- [Future Enhancements](#-future-enhancements)
-- [Author](#-author)
+- [🚀 Project Overview](#-project-overview)
+- [🔗 Live Demo Links](#-live-demo-links)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🤖 Machine Learning Pipeline](#-machine-learning-pipeline)
+- [📊 Model Performance](#-model-performance)
+- [🔌 API Endpoints](#-api-endpoints)
+- [📘 Feature Reference](#-feature-reference)
+- [🐳 Docker Deployment](#-docker-deployment)
+- [☁️ AWS EC2 Deployment](#️-aws-ec2-deployment)
+- [🖥️ Streamlit Frontend](#️-streamlit-frontend)
+- [💡 Business Context](#-business-context)
+- [🛠️ Tech Stack & Skills Used](#️-tech-stack--skills-used)
+- [📁 Project Structure](#-project-structure)
+- [🎬 Recruiter Demo Guide](#-recruiter-demo-guide)
+- [⚙️ Installation & Setup](#️-installation--setup)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [👨‍💻 Author](#-author)
 
 ---
 
@@ -278,47 +288,19 @@ This reflects a real-world financial risk management strategy used in banking an
 
 ---
 
-## 📷 Screenshots
-
-### Streamlit Dashboard
-> *Screenshot: Run the Streamlit app → take a screenshot → save as `screenshots/streamlit_dashboard.png`*
-
-![Streamlit Dashboard](screenshots/streamlit_dashboard.png)
-
----
-
-### Swagger API Docs
-> *Screenshot: Open `http://<EC2-PUBLIC-IP>:8000/docs` → screenshot → save as `screenshots/swagger_docs.png`*
-
-![Swagger Docs](screenshots/swagger_docs.png)
-
----
-
-### Docker Running on EC2
-> *Screenshot: Run `sudo docker ps` on EC2 terminal → screenshot → save as `screenshots/docker_running.png`*
-
-![Docker Running](screenshots/docker_running.png)
-
----
-
-### AWS EC2 Instance
-> *Screenshot: AWS Console → EC2 → Running Instances → screenshot → save as `screenshots/aws_ec2.png`*
-
-![AWS EC2](screenshots/aws_ec2.png)
-
-> 💡 **To add screenshots:** Create a `screenshots/` folder in your repo root, add the four images above, and they will render automatically here.
-
 ## 🔌 API Endpoints
 
-> Current AWS EC2 Public IP: `3.109.32.46`
+> 🌐 **Live API Base URL:** `http://3.109.32.46:8000`
 
-### 1. Health Check
+---
+
+### 💚 1. Health Check Endpoint
 
 ```http
 GET http://3.109.32.46:8000/health
 ```
 
-**Response:**
+#### Sample Response
 
 ```json
 {
@@ -329,24 +311,440 @@ GET http://3.109.32.46:8000/health
 
 ---
 
-### 2. Interactive Swagger Docs
+### 📖 2. Interactive Swagger Documentation
 
 ```http
 GET http://3.109.32.46:8000/docs
 ```
 
-> Full interactive API — try predictions directly in the browser. No Postman or code required.
+> Automatically generated FastAPI Swagger UI for testing API endpoints directly in the browser.
 
 ---
 
-### 3. Single Prediction
+### 🎯 3. Single Prediction Endpoint
 
 ```http
 POST http://3.109.32.46:8000/api/v1/predict
 Content-Type: application/json
 ```
 
-**Request Body:**
+#### Sample Request Body
+
+```json
+{
+  "features": [
+    50000,
+    1,
+    2,
+    1,
+    35,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    10000,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5000,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "threshold": 0.3
+}
+```
+
+#### Sample Response
+
+```json
+{
+  "prediction": 0,
+  "probability": 0.187,
+  "risk_level": "LOW",
+  "threshold_used": 0.3
+}
+```
+
+---
+
+### 📦 4. Batch Prediction Endpoint
+
+```http
+POST http://3.109.32.46:8000/api/v1/predict_batch
+Content-Type: application/json
+```
+
+#### Sample Request Body
+
+```json
+{
+  "customers": [
+    [
+      50000, 1, 2, 1, 35,
+      0, 0, 0, 0, 0, 0,
+      10000, 0, 0, 0, 0, 0,
+      5000, 0, 0, 0, 0, 0
+    ],
+    [
+      20000, 2, 3, 2, 28,
+      2, 2, 0, 0, 0, 0,
+      15000, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0
+    ]
+  ],
+  "threshold": 0.3
+}
+```
+
+---
+
+## 📘 Feature Reference
+
+### Input Features Used for Prediction (23 Features)
+
+| # | Feature | Description |
+|---|---|---|
+| 1 | LIMIT_BAL | Credit limit amount (NT dollars) |
+| 2 | SEX | Gender (`1 = Male`, `2 = Female`) |
+| 3 | EDUCATION | Education level (`1 = Graduate School`, `2 = University`, `3 = High School`, `4 = Others`) |
+| 4 | MARRIAGE | Marital status (`1 = Married`, `2 = Single`, `3 = Others`) |
+| 5 | AGE | Age of the customer |
+| 6–11 | PAY_0 to PAY_6 | Monthly repayment status history |
+| 12–17 | BILL_AMT1 to BILL_AMT6 | Monthly bill statement amounts |
+| 18–23 | PAY_AMT1 to PAY_AMT6 | Previous monthly payment amounts |
+
+> 📌 Repayment status values:
+>
+> - `-2` → No consumption
+> - `-1` → Paid duly
+> - `1–9` → Number of months payment delayed
+
+---
+
+## 🐳 Docker Deployment
+
+### 🚀 Option A — Pull from Docker Hub (Recommended)
+
+```bash
+# Pull Docker image
+docker pull vikash4122002/credit-default-api:latest
+
+# Run Docker container
+docker run -d -p 8000:8000 vikash4122002/credit-default-api:latest
+
+# Verify running containers
+docker ps
+
+# Test API health endpoint
+curl http://localhost:8000/health
+```
+
+---
+
+### 🛠️ Option B — Build Docker Image Locally
+
+```bash
+# Clone repository
+git clone https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System.git
+
+# Move into deployment directory
+cd AI-Powered-Credit-Default-Prediction-System/deployment_api
+
+# Build Docker image
+docker build -t credit-default-api .
+
+# Run Docker container
+docker run -d -p 8000:8000 credit-default-api
+
+# View running logs
+docker logs $(docker ps -q --filter "ancestor=credit-default-api")
+```
+
+---
+
+### 📦 Dockerfile Overview
+
+```dockerfile
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+```
+
+---
+
+## ☁️ AWS EC2 Deployment
+
+### 🖥️ EC2 Instance Configuration
+
+| Setting | Value |
+|---|---|
+| Instance Type | t2.micro (AWS Free Tier) |
+| Operating System | Ubuntu 22.04 LTS |
+| Open Port | 8000 |
+| AWS Region | ap-south-1 (Mumbai) |
+| Deployment Type | Dockerized FastAPI Application |
+
+---
+
+### 🚀 Deployment Steps on AWS EC2
+
+```bash
+# 1. Connect to EC2 instance
+ssh -i "your-key.pem" ubuntu@3.109.32.46
+
+# 2. Update packages
+sudo apt-get update
+
+# 3. Install Docker
+sudo apt-get install -y docker.io
+
+# 4. Start Docker service
+sudo systemctl start docker
+
+# 5. Enable Docker on boot
+sudo systemctl enable docker
+
+# 6. Pull Docker image
+sudo docker pull vikash4122002/credit-default-api:latest
+
+# 7. Run container with auto restart
+sudo docker run -d --restart=always -p 8000:8000 vikash4122002/credit-default-api:latest
+
+# 8. Verify running container
+sudo docker ps
+
+# 9. Test API health endpoint
+curl http://localhost:8000/health
+```
+
+> 📌 AWS Security Group must allow inbound traffic on:
+>
+> - Port `8000` → FastAPI Backend
+> - Port `8501` → Streamlit Frontend (optional)
+
+---
+
+> ⚠️ **IP Stability Tip:**  
+> AWS EC2 public IP addresses may change when the instance is restarted.  
+> To keep a permanent public URL, attach an **Elastic IP** from the AWS Console.
+
+---
+
+## 🖥️ Streamlit Frontend
+
+### 🚀 Frontend Features
+
+- Real-time single customer default prediction
+- Batch prediction using CSV upload
+- Adjustable risk threshold slider
+- Interactive analytics dashboard
+- API documentation tab integrated into frontend
+- Live API status monitoring
+- Download prediction results as CSV
+
+---
+
+### ▶️ Run Streamlit Frontend Locally
+
+```bash
+# Move to frontend directory
+cd streamlit_frontend
+
+# Install frontend dependencies
+pip install -r requirements.txt
+
+# Start Streamlit application
+streamlit run app.py
+```
+
+---
+
+### 📊 Frontend Capabilities
+
+```text
+✅ Real-time prediction using FastAPI backend
+✅ Interactive Plotly probability gauge
+✅ Risk classification: LOW / MEDIUM / HIGH
+✅ Batch CSV upload & prediction
+✅ Downloadable prediction reports
+✅ Live API health status monitoring
+✅ Responsive dashboard layout
+✅ Integrated API documentation
+```
+
+---
+
+## 💡 Business Context
+
+### 📌 Problem Statement
+
+Credit default prediction is a major challenge for banks and financial institutions.
+
+Traditional rule-based systems often fail to detect complex financial behavior patterns and hidden risk signals.
+
+This project demonstrates how machine learning can improve financial risk assessment by:
+
+- Identifying high-risk customers earlier
+- Reducing missed default cases
+- Supporting large-scale batch prediction workflows
+- Providing actionable risk-level insights
+
+---
+
+### 🎯 Why Recall Is Prioritized
+
+In credit risk systems:
+
+```text
+False Negative:
+A risky customer is classified as safe
+→ Potential financial loss
+
+False Positive:
+A safe customer is flagged as risky
+→ Manual review required
+```
+
+Because missing an actual defaulter is far more expensive, the model is intentionally optimized for **higher recall** instead of only maximizing accuracy.
+
+This reflects real-world financial risk management strategy.
+
+---
+
+## 🛠️ Tech Stack & Skills Used
+
+| Category | Technology | Purpose |
+|---|---|---|
+| Machine Learning | Scikit-learn | Model training pipeline & evaluation |
+| Boosting Models | XGBoost | Base model & meta learner |
+| Boosting Models | LightGBM | Base ensemble model |
+| Ensemble Learning | StackingClassifier | Multi-model ensemble |
+| Hyperparameter Tuning | Optuna | Bayesian optimization |
+| Imbalanced Learning | SMOTE | Minority class balancing |
+| Feature Scaling | StandardScaler | Data normalization |
+| Backend API | FastAPI + Uvicorn | REST API deployment |
+| Validation | Pydantic | Request validation |
+| Frontend | Streamlit | Interactive dashboard |
+| Visualization | Plotly | Interactive charts & gauges |
+| Containerization | Docker | Application packaging |
+| Container Registry | Docker Hub | Public Docker image hosting |
+| Cloud Deployment | AWS EC2 | Cloud hosting |
+| Data Processing | Pandas + NumPy | Data handling |
+| Evaluation | Matplotlib + Seaborn | Performance visualization |
+| Model Persistence | Joblib | Saving trained models |
+| Version Control | Git + GitHub | Source control & collaboration |
+
+---
+
+## 📁 Project Structure
+
+```text
+📦 AI-Powered-Credit-Default-Prediction-System
+│
+├── 📂 deployment_api/
+│   ├── 🐍 app.py
+│   ├── 🐳 Dockerfile
+│   ├── 📋 requirements.txt
+│   ├── 📂 routes/
+│   ├── 📂 services/
+│   ├── 📂 schema/
+│   ├── 📂 utils/
+│   └── 📂 models/
+│       └── ⚠️ Trained model files bundled inside Docker image
+│
+├── 📂 streamlit_frontend/
+│   ├── 🐍 app.py
+│   └── 📋 requirements.txt
+│
+├── 📂 src/
+│   ├── 🐍 data_preprocessing.py
+│   ├── 🐍 train_base_models.py
+│   ├── 🐍 stacking_optuna_meta_only.py
+│   └── 🐍 evaluate.py
+│
+├── 📂 models/
+│   ├── evaluation_results.csv
+│   ├── confusion_matrices.png
+│   ├── roc_curves.png
+│   └── meta_importance.png
+│
+│   ⚠️ Trained .pkl model files are excluded from GitHub
+│   due to GitHub file size limitations.
+│
+├── 📂 screenshots/
+│   ├── streamlit_dashboard.png
+│   ├── swagger_docs.png
+│   ├── docker_running.png
+│   ├── aws_ec2.png
+│   ├── roc_curve.png
+│   └── confusion_matrix.png
+│
+├── 🐳 docker-compose.yml
+├── 📋 requirements.txt
+├── 📄 LICENSE
+└── 📄 README.md
+```
+---
+
+## 🎬 Recruiter Demo Guide
+
+> 📌 Recommended order for demonstrating the project during interviews or recruiter discussions.
+
+---
+
+### 🥇 Step 1 — Demonstrate the Streamlit Frontend
+
+Open the Streamlit dashboard and perform a live prediction.
+
+#### Example Input
+
+- Credit Limit: `20,000`
+- Payment Delay Status: `2 months delayed`
+- Latest Bill Amount: `18,000`
+
+Click **Predict Default Risk**.
+
+#### Highlight During Demo
+
+- Real-time prediction
+- Probability gauge visualization
+- Risk level classification (`LOW`, `MEDIUM`, `HIGH`)
+- Adjustable prediction threshold slider
+
+#### Explain
+
+> “This frontend communicates with a live FastAPI backend deployed on AWS EC2. Predictions are generated in real time using a stacking ensemble machine learning model.”
+
+---
+
+### 🥈 Step 2 — Show the Live FastAPI Swagger Documentation
+
+Open:
+
+```text
+http://3.109.32.46:8000/docs
+```
+
+Use the interactive Swagger UI to test the prediction API directly in the browser.
+
+#### Example Request
 
 ```json
 {
@@ -360,441 +758,193 @@ Content-Type: application/json
 }
 ```
 
-**Response:**
+#### Explain
 
-```json
-{
-  "prediction": 0,
-  "probability": 0.187,
-  "risk_level": "LOW",
-  "threshold_used": 0.3
-}
-```
+> “FastAPI automatically generates interactive API documentation using Swagger UI, making testing and integration easier for developers.”
 
 ---
 
-### 4. Batch Prediction
+### 🥉 Step 3 — Demonstrate Health Monitoring
 
-```http
-POST http://3.109.32.46:8000/api/v1/predict_batch
-Content-Type: application/json
+Open:
+
+```text
+http://3.109.32.46:8000/health
 ```
 
-**Request Body:**
+#### Sample Response
 
 ```json
 {
-  "customers": [
-    [50000, 1, 2, 1, 35, 0, 0, 0, 0, 0, 0, 10000, 0, 0, 0, 0, 0, 5000, 0, 0, 0, 0, 0],
-    [20000, 2, 3, 2, 28, 2, 2, 0, 0, 0, 0, 15000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-  ],
-  "threshold": 0.3
+  "status": "healthy",
+  "model_loaded": true
 }
 ```
 
-### Feature Reference (23 features in order)
+#### Explain
 
-| # | Feature | Description |
-|---|---|---|
-| 1 | LIMIT_BAL | Credit limit (NT dollars) |
-| 2 | SEX | 1=Male, 2=Female |
-| 3 | EDUCATION | 1=Graduate School, 2=University, 3=High School, 4=Others |
-| 4 | MARRIAGE | 1=Married, 2=Single, 3=Others |
-| 5 | AGE | Age in years |
-| 6–11 | PAY_0 to PAY_6 | Repayment status (-2=no consumption, -1=paid duly, 1–9=months delayed) |
-| 12–17 | BILL_AMT1–6 | Bill statement amounts (Apr–Sep 2005) |
-| 18–23 | PAY_AMT1–6 | Previous payment amounts (Apr–Sep 2005) |
+> “Health monitoring endpoints are commonly used in production systems for service monitoring, load balancers, and uptime checks.”
 
 ---
 
-## 🐳 Docker Deployment
+### 4️⃣ Step 4 — Demonstrate Docker Deployment
 
-### Option A — Pull from Docker Hub (Fastest — no build needed)
+Run:
 
 ```bash
-# Pull the image
+sudo docker ps
+```
+
+Show the running FastAPI container.
+
+Then demonstrate pulling the public Docker image:
+
+```bash
 docker pull vikash4122002/credit-default-api:latest
-
-# Run the container
-docker run -d -p 8000:8000 vikash4122002/credit-default-api:latest
-
-# Verify it's running
-docker ps
-
-# Test the API
-curl http://localhost:8000/health
 ```
 
-### Option B — Build Locally
+#### Explain
 
-```bash
-# Clone the repository
-git clone https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System.git
-cd AI-Powered-Credit-Default-Prediction-System/deployment_api
-
-# Build Docker image
-docker build -t credit-default-api .
-
-# Run container
-docker run -d -p 8000:8000 credit-default-api
-
-# View logs
-docker logs $(docker ps -q --filter "ancestor=credit-default-api")
-```
-
-### Dockerfile Overview
-
-```dockerfile
-FROM python:3.10-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
-```
+> “The entire application is containerized using Docker, allowing consistent deployment across environments.”
 
 ---
 
-## ☁️ AWS EC2 Deployment
+### 5️⃣ Step 5 — Demonstrate AWS EC2 Deployment
 
-### Instance Configuration
+Open the AWS Console and show:
 
-| Setting | Value |
+- Running EC2 instance
+- Public IP address
+- Open security group ports
+- Dockerized backend deployment
+
+#### Explain
+
+> “The machine learning API is deployed on AWS EC2 and accessible publicly through REST endpoints.”
+
+---
+
+### 6️⃣ Step 6 — Walk Through the GitHub Repository
+
+Highlight the following directories:
+
+| Folder | Purpose |
 |---|---|
-| **Instance Type** | t2.micro (Free Tier eligible) |
-| **OS** | Ubuntu 22.04 LTS |
-| **Port** | 8000 (open in Security Group inbound rules) |
-| **Region** | ap-south-1 (Mumbai) |
-| **Access** | Public IPv4 DNS |
+| `src/` | Machine learning training pipeline |
+| `deployment_api/` | FastAPI backend service |
+| `streamlit_frontend/` | Interactive dashboard frontend |
+| `models/` | Evaluation graphs and metrics |
+| `README.md` | Full project documentation |
 
-### Deployment Steps on EC2
+#### Explain
 
-```bash
-# 1. SSH into your EC2 instance
-ssh -i "your-key.pem" ubuntu@<EC2-PUBLIC-IP>
-
-# 2. Install Docker
-sudo apt-get update
-sudo apt-get install -y docker.io
-sudo systemctl start docker
-sudo systemctl enable docker
-
-# 3. Pull the Docker image
-sudo docker pull vikash4122002/credit-default-api:latest
-
-# 4. Run with auto-restart so it survives reboots
-sudo docker run -d --restart=always -p 8000:8000 vikash4122002/credit-default-api:latest
-
-# 5. Verify deployment
-sudo docker ps
-curl http://localhost:8000/health
-```
-
-> ⚠️ **IP Stability Tip:** AWS EC2 public IPs change when an instance is stopped and restarted. To get a permanent URL, assign an **Elastic IP** to your instance in the AWS Console — it's free while the instance is running.
+> “The project follows a modular software engineering structure separating training, deployment, frontend, and evaluation components.”
 
 ---
 
-## 🖥️ Streamlit Frontend
+### 7️⃣ Step 7 — Explain the Ensemble ML Architecture
 
-### Features
-
-- **Single Prediction Tab** — Enter customer details, adjust risk threshold, get instant prediction with probability gauge
-- **Batch Prediction Tab** — Upload CSV, run bulk predictions, download results as CSV
-- **Analytics Tab** — View model performance metrics and bar charts
-- **API Docs Tab** — Integrated documentation with sample JSON requests
-
-### Run Locally
-
-```bash
-cd streamlit_frontend
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-### Frontend Capabilities
-
-```
-✅ Real-time prediction with Plotly probability gauge
-✅ Risk level output: LOW / MEDIUM / HIGH
-✅ Adjustable threshold slider (0.05 – 0.50)
-✅ CSV batch upload & one-click download of results
-✅ Live API status indicator (Online / Offline)
-✅ Interactive Plotly visualizations
-✅ Clean, wide-layout responsive design
-```
-
----
-
-## 💡 Business Context
-
-### Problem Statement
-
-Credit default is a significant risk for banks and financial institutions. Traditional rule-based systems often miss non-linear patterns in customer payment behaviour. This project demonstrates how machine learning can assist credit risk teams by:
-
-- Identifying potentially high-risk customers earlier in the credit lifecycle
-- Prioritising recall to reduce the number of missed defaulters
-- Supporting batch processing for large-scale application review
-- Providing clear, actionable risk level outputs (LOW / MEDIUM / HIGH) that credit officers can act on
-
-> **Why recall over precision?** In credit risk, failing to flag a real defaulter (false negative) typically results in a larger financial exposure than incorrectly flagging a safe customer (false positive). The model threshold is tuned to reflect this real-world cost asymmetry.
-
----
-
-## 🛠️ Tech Stack & Skills Used
-
-| Category | Tool / Technology | Usage |
-|---|---|---|
-| **ML Framework** | Scikit-learn | Pipeline, stacking, cross-validation, metrics |
-| **Boosting** | XGBoost | Base model + meta learner |
-| **Boosting** | LightGBM | Base model |
-| **Ensemble** | StackingClassifier | Combines all base models |
-| **Tuning** | Optuna (TPE Sampler) | Bayesian hyperparameter optimization |
-| **Imbalance** | SMOTE (imbalanced-learn) | Synthetic minority oversampling |
-| **Scaling** | StandardScaler | Feature normalization (no leakage) |
-| **Backend** | FastAPI + Uvicorn | REST API with async support |
-| **Validation** | Pydantic | Request/response schema validation |
-| **Frontend** | Streamlit | Interactive web dashboard |
-| **Visualization** | Plotly | Gauge charts, histograms |
-| **Containerization** | Docker | Full app containerization |
-| **Registry** | Docker Hub | Public image hosting |
-| **Cloud** | AWS EC2 | Cloud deployment |
-| **Data** | Pandas, NumPy | Data processing & wrangling |
-| **Evaluation** | Matplotlib, Seaborn | EDA and model evaluation plots |
-| **Serialization** | Joblib | Model persistence (.pkl) |
-| **Version Control** | Git + GitHub | Source control |
-
----
-
-## 📁 Project Structure
-
-```
-📦 AI-Powered-Credit-Default-Prediction-System
-│
-├── 📂 deployment_api/
-│   ├── 🐍 app.py                          ← FastAPI main application
-│   ├── 🐳 Dockerfile                      ← Docker build file
-│   ├── 📋 requirements.txt
-│   ├── 📂 routes/
-│   │   └── predict.py                     ← API route handlers
-│   ├── 📂 services/
-│   │   └── model_service.py               ← Model loading & inference logic
-│   ├── 📂 schema/
-│   │   └── request_schema.py              ← Pydantic request/response models
-│   ├── 📂 utils/
-│   │   └── preprocessing.py               ← Input preprocessing helpers
-│   └── 📂 models/
-│       ├── final_model.pkl                ← Bundled inside Docker image
-│       └── scaler.pkl                     ← Bundled inside Docker image
-│
-├── 📂 streamlit_frontend/
-│   ├── 🐍 app.py                          ← Streamlit dashboard
-│   └── 📋 requirements.txt
-│
-├── 📂 src/
-│   ├── 🐍 data_preprocessing.py           ← Load, clean, scale, SMOTE
-│   ├── 🐍 train_base_models.py            ← RF, XGBoost, LightGBM + Optuna
-│   ├── 🐍 stacking_optuna_meta_only.py    ← Stacking ensemble training
-│   └── 🐍 evaluate.py                     ← Full evaluation pipeline
-│
-├── 📂 models/
-│   ├── evaluation_results.csv             ← Model comparison table
-│   ├── confusion_matrices.png             ← All model confusion matrices
-│   ├── roc_curves.png                     ← ROC comparison chart
-│   └── meta_importance.png                ← Meta learner feature importance
-│
-│   ⚠️  Note: Trained .pkl model files are not committed to this repo due to
-│   file size limits. To use the model: pull the Docker image (which bundles
-│   the trained model), or re-train by running the scripts in src/ in order.
-│
-├── 📂 data/
-│   ├── 📂 raw/
-│   │   └── credit card clients.xlsx       ← UCI raw dataset
-│   └── 📂 processed/                      ← Auto-generated by preprocessing script
-│
-├── 📂 notebooks/
-│   └── EDA.ipynb                          ← Exploratory data analysis
-│
-├── 📂 screenshots/                        ← Add your project screenshots here
-│   ├── streamlit_dashboard.png            ← Streamlit app screenshot
-│   ├── swagger_docs.png                   ← Swagger UI screenshot
-│   ├── docker_running.png                 ← docker ps terminal screenshot
-│   └── aws_ec2.png                        ← AWS Console EC2 screenshot
-│
-├── 🐳 docker-compose.yml
-├── 📋 requirements.txt
-├── 📄 LICENSE
-└── 📄 README.md
-```
-
----
-
-## 🎬 Recruiter Demo Guide
-
-> **Follow this order for maximum impact. Each step builds on the previous one.**
-
----
-
-### 🥇 Step 1 — Lead with the Frontend (Best First Impression)
-
-Open your Streamlit app. Enter these values and predict live:
-
-- Credit Limit: `20,000`
-- Payment Status: `Delay 2 months`
-- Last Bill: `18,000`
-- Hit **Predict Default Risk**
-
-Show the probability gauge going red. Point out the `HIGH` risk label and the adjustable threshold slider.
-
-**Say:** *"This is a live ML app — predictions are served by a REST API running on AWS EC2."*
-
----
-
-### 🥈 Step 2 — Show the Live API (Swagger UI)
-
-Open: `http://<EC2-PUBLIC-IP>:8000/docs`
-
-Click `POST /api/v1/predict` → **Try it out** → paste this → Execute:
-
-```json
-{
-  "features": [50000, 1, 2, 1, 35, 0, 0, 0, 0, 0, 0, 10000, 0, 0, 0, 0, 0, 5000, 0, 0, 0, 0, 0],
-  "threshold": 0.3
-}
-```
-
-**Say:** *"This is the FastAPI backend with auto-generated Swagger docs. Anyone can test the API directly in the browser — no Postman or code needed."*
-
----
-
-### 🥉 Step 3 — Show Health Monitoring
-
-Open: `http://<EC2-PUBLIC-IP>:8000/health`
-
-```json
-{ "status": "healthy", "model_loaded": true }
-```
-
-**Say:** *"Health endpoints are standard practice in deployed ML services — used by DevOps and load balancers to monitor availability."*
-
----
-
-### 4️⃣ Step 4 — Show Docker
-
-```bash
-sudo docker ps
-```
-
-Show the running container. Then demonstrate the public image:
-
-```bash
-docker pull vikash4122002/credit-default-api:latest
-```
-
-**Say:** *"The entire app is containerized. Anyone can pull this image and run the API locally in one command — no environment setup needed."*
-
----
-
-### 5️⃣ Step 5 — Show AWS EC2
-
-Open AWS Console → EC2 → Running Instances. Show the running instance, public IP, and Security Group with port 8000 open.
-
-**Say:** *"This is deployed on AWS EC2. The API is globally accessible — this is how real ML services are hosted in the cloud."*
-
----
-
-### 6️⃣ Step 6 — Walk Through the GitHub Repo
-
-Show:
-- `src/` — clean, modular ML training scripts
-- `deployment_api/` — FastAPI backend with proper routing
-- `streamlit_frontend/` — interactive UI
-- `Dockerfile` — containerization config
-- `README.md` — professional documentation
-
-**Say:** *"The project is structured the way real ML teams organise their work — separate concerns for data, training, serving, and frontend."*
-
----
-
-### 7️⃣ Step 7 — Explain the ML Architecture
-
-```
+```text
 Random Forest ──┐
 XGBoost       ──┼──► Meta XGBoost ──► Final Prediction
 LightGBM      ──┘
 ```
 
-**Say:** *"I trained three base models, each tuned independently with Optuna. Their probability outputs become features for a meta XGBoost learner — this stacking approach consistently outperforms any single model."*
+#### Explain
+
+> “Three optimized base models generate probability predictions which are combined using a meta XGBoost learner through stacking ensemble learning.”
 
 ---
 
-### 8️⃣ Step 8 — Explain the Business Reasoning
+### 8️⃣ Step 8 — Explain the Business Logic
 
-**Say:** *"In credit risk, missing a real defaulter costs far more than flagging a good customer. So I tuned the classification threshold to 0.30, which maximises recall at 57.1%. This is a deliberate, domain-aware engineering decision — not just a default setting."*
+#### Explain
 
----
-
-### ✅ Closing Statement
-
-> *"This project covers the full ML engineering lifecycle — data preprocessing, ensemble model training with Optuna, FastAPI REST API, Docker containerization, AWS EC2 deployment, and a Streamlit frontend. The API is live and publicly accessible right now."*
+> “The classification threshold was intentionally reduced to 0.30 to maximize recall because missing a real defaulter creates higher financial risk than incorrectly flagging a safe customer.”
 
 ---
 
-### 💼 What Recruiters See
+## ✅ Final Closing Statement
 
-| Skill | Evidence |
+> “This project demonstrates the complete machine learning engineering lifecycle including data preprocessing, ensemble learning, Optuna hyperparameter optimization, FastAPI backend development, Docker containerization, AWS EC2 cloud deployment, and interactive Streamlit frontend integration.”
+
+---
+
+
+---
+
+## 🚀 Key Skills Demonstrated
+
+| Skill Area | Demonstrated Through |
 |---|---|
-| ✅ Machine Learning | Stacking Ensemble, SMOTE, threshold tuning |
-| ✅ Model Optimization | Optuna Bayesian tuning (90 total trials) |
-| ✅ Backend Development | FastAPI REST API with Pydantic validation |
-| ✅ API Documentation | Swagger UI auto-generated at /docs |
-| ✅ Docker | Containerized app published to Docker Hub |
-| ✅ AWS Cloud | Live EC2 deployment, Security Group config |
-| ✅ Frontend | Streamlit dashboard with Plotly gauge charts |
-| ✅ MLOps | Health monitoring, batch prediction, model serving |
-| ✅ Software Engineering | Modular codebase, clean project structure |
-| ✅ Domain Thinking | Recall-first design with business justification |
+| ✅ Machine Learning | Stacking Ensemble, SMOTE, Threshold Optimization |
+| ✅ Hyperparameter Tuning | Optuna Bayesian Optimization |
+| ✅ Ensemble Learning | Random Forest + XGBoost + LightGBM |
+| ✅ Backend Development | FastAPI REST API with Pydantic Validation |
+| ✅ API Documentation | Auto-generated Swagger UI |
+| ✅ Docker | Fully Containerized Application |
+| ✅ Cloud Deployment | AWS EC2 Live Deployment |
+| ✅ Frontend Development | Streamlit Interactive Dashboard |
+| ✅ MLOps Concepts | Health Monitoring, Batch Prediction, Model Serving |
+| ✅ Software Engineering | Modular Project Structure & Clean Code |
+| ✅ Business Understanding | Recall-focused optimization for credit risk |
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### Clone the Repository
+### 📥 Clone the Repository
 
 ```bash
 git clone https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System.git
+
 cd AI-Powered-Credit-Default-Prediction-System
 ```
 
-### Option A — Run with Docker (Recommended — no training needed)
+---
+
+### 🐳 Option A — Run with Docker (Recommended)
 
 ```bash
+# Pull Docker image
 docker pull vikash4122002/credit-default-api:latest
+
+# Run Docker container
 docker run -d -p 8000:8000 vikash4122002/credit-default-api:latest
-# Open: http://localhost:8000/docs
+
+# Open Swagger API documentation
+http://localhost:8000/docs
 ```
 
-### Option B — Train from Scratch and Run Locally
+---
+
+### 🛠️ Option B — Train & Run Locally
 
 ```bash
-# 1. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 2. Download the dataset
-#    Source: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
-#    Save to: data/raw/credit card clients.xlsx
+# Download dataset from UCI repository
+# Save dataset inside:
+# data/raw/credit card clients.xlsx
 
-# 3. Run the pipeline in order
+# Run preprocessing pipeline
 python src/data_preprocessing.py
+
+# Train base models
 python src/train_base_models.py
+
+# Train stacking ensemble
 python src/stacking_optuna_meta_only.py
 
-# 4. Start the API
+# Start FastAPI backend
 cd deployment_api
+
 uvicorn app:app --host 0.0.0.0 --port 8000
 
-# 5. Start the frontend (new terminal)
+# Start Streamlit frontend (new terminal)
 cd streamlit_frontend
+
 streamlit run app.py
 ```
 
@@ -802,14 +952,14 @@ streamlit run app.py
 
 ## 🚀 Future Enhancements
 
-- [ ] **JWT Authentication** — Secure API with token-based auth
-- [ ] **Database Integration** — Store predictions and audit trail in PostgreSQL
-- [ ] **CI/CD Pipeline** — GitHub Actions for automated testing and deployment on push
-- [ ] **Kubernetes** — Orchestrate containers at scale with auto-scaling
-- [ ] **Model Monitoring** — Detect data drift with Evidently AI
-- [ ] **SHAP Explainability** — Per-prediction feature importance for credit officers
-- [ ] **Elastic IP** — Permanent AWS EC2 URL that survives instance restarts
-- [ ] **A/B Testing Framework** — Compare model versions in production
+- [ ] JWT Authentication for API security
+- [ ] PostgreSQL database integration
+- [ ] CI/CD pipeline using GitHub Actions
+- [ ] Kubernetes deployment support
+- [ ] Model drift monitoring using Evidently AI
+- [ ] SHAP explainability integration
+- [ ] Elastic IP for stable AWS deployment
+- [ ] A/B testing framework for model comparison
 
 ---
 
@@ -817,12 +967,12 @@ streamlit run app.py
 
 <div align="center">
 
-**Vikash Kumar**
+## Vikash Kumar
 
-B.Tech ECE · Machine Learning | FastAPI | Docker | AWS | Streamlit | MLOps
+B.Tech ECE · Machine Learning · FastAPI · Docker · AWS · Streamlit · MLOps
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikash4122002)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-ID)
+
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/vikash4122002/credit-default-api)
 
 </div>
@@ -831,10 +981,16 @@ B.Tech ECE · Machine Learning | FastAPI | Docker | AWS | Streamlit | MLOps
 
 <div align="center">
 
-### ⭐ If this project helped you, give it a star!
+### ⭐ If you found this project useful, consider giving it a star!
 
-*Built with real engineering, real deployment, real domain thinking.*
-
-**Keywords:** `Machine Learning` `FastAPI` `Docker` `AWS EC2` `Streamlit` `MLOps` `REST API` `Ensemble Learning` `Credit Risk` `XGBoost` `LightGBM` `Stacking` `Optuna` `SMOTE` `End-to-End ML`
+Built with production-oriented engineering, cloud deployment, and real-world ML workflow design.
 
 </div>
+
+---
+
+## 🔑 Keywords
+
+`Machine Learning` · `FastAPI` · `Docker` · `AWS EC2` · `Streamlit` · `MLOps` · `REST API` · `Ensemble Learning` · `XGBoost` · `LightGBM` · `Stacking` · `Optuna` · `SMOTE` · `Credit Risk Prediction`
+
+---
