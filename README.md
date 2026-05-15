@@ -113,8 +113,6 @@ Built with production-oriented engineering, cloud deployment, and real-world ML 
 
 ---
 
-## 🏗️ System Architecture
-
 
 ## 🏗️ System Architecture
 
@@ -166,71 +164,117 @@ Built with production-oriented engineering, cloud deployment, and real-world ML 
 
 ### Step 1 — Data Preprocessing
 
-- **Dataset:** UCI Credit Card Default (30,000 clients, 23 features)
-- **Cleaning:** Fixed invalid `EDUCATION` (0,5,6 → 4) and `MARRIAGE` (0 → 3) categories
-- **Missing Values:** Imputed with column medians
-- **Duplicates:** Removed duplicate rows
-- **Train/Test Split:** 80/20 stratified split — preserves class ratio in both sets
-- **Feature Scaling:** `StandardScaler` fitted only on training data — no data leakage into test set
-- **SMOTE:** Applied exclusively on training set to address the 22% default rate imbalance
+- **Dataset:** UCI Credit Card Default Dataset containing 30,000 customer records and 23 financial features
+- **Data Cleaning:** Corrected invalid categorical values in `EDUCATION` and `MARRIAGE`
+- **Missing Value Handling:** Filled missing values using median imputation
+- **Duplicate Removal:** Removed duplicate customer records
+- **Train-Test Split:** Applied stratified 80/20 split to preserve class distribution
+- **Feature Scaling:** Used `StandardScaler` fitted only on training data to prevent data leakage
+- **Class Imbalance Handling:** Applied SMOTE only on the training dataset to balance minority default cases
 
-### Step 2 — Base Model Training with Optuna
+---
 
-| Model | Optuna Trials | Key Tuned Parameters |
+### Step 2 — Hyperparameter Optimization with Optuna
+
+| Model | Optimization Method | Important Tuned Parameters |
 |---|---|---|
-| 🌲 Random Forest | 30 | n_estimators, max_depth, min_samples_split, max_features, bootstrap |
-| ⚡ XGBoost | 30 | learning_rate, max_depth, subsample, colsample_bytree, reg_alpha/lambda |
-| 🔦 LightGBM | 30 | num_leaves, learning_rate, subsample, colsample_bytree, reg_alpha/lambda |
+| 🌲 Random Forest | Optuna Bayesian Optimization | n_estimators, max_depth, min_samples_split, max_features |
+| ⚡ XGBoost | Optuna Bayesian Optimization | learning_rate, max_depth, subsample, colsample_bytree |
+| 🔦 LightGBM | Optuna Bayesian Optimization | num_leaves, learning_rate, subsample, colsample_bytree |
 
-### Step 3 — Stacking Ensemble
+- Total optimization trials performed: **90+**
+- Used Optuna TPE sampler for efficient hyperparameter search
 
+---
+
+### Step 3 — Stacking Ensemble Architecture
+
+```text
+Base Models (Level 0)
+│
+├── Random Forest
+├── XGBoost
+└── LightGBM
+        │
+        ▼
+Probability outputs used as meta-features
+        │
+        ▼
+Meta Learner (Level 1)
+└── XGBoost (Optimized with Optuna)
+        │
+        ▼
+Final Credit Default Prediction
 ```
-Base Models (Level 0): Random Forest + XGBoost + LightGBM
-        ↓ (predict_proba outputs become new features)
-Meta Learner (Level 1): XGBoost tuned with Optuna (20 trials)
-        ↓
-Final Prediction with custom threshold (0.30)
-```
 
-- **Cross-validation:** 5-Fold StratifiedKFold throughout all stages
-- **Stack method:** `predict_proba` — probability outputs passed to meta learner
-- **Passthrough:** False — only base model outputs fed to meta learner
+#### Ensemble Configuration
+
+- **Cross Validation:** 5-Fold StratifiedKFold
+- **Stack Method:** `predict_proba`
+- **Passthrough:** Disabled
+- **Meta Learner:** Optimized XGBoost Classifier
+
+---
 
 ### Step 4 — Threshold Optimization
 
-Custom threshold search from 0.05 to 0.65 with weighted scoring:
+Instead of using the default classification threshold of `0.50`, a custom threshold optimization strategy was implemented.
+
+#### Optimization Formula
 
 ```python
 score = 0.7 * recall + 0.3 * precision
 ```
 
-> **Why 0.30 threshold?** In credit default prediction, false negatives (missing a defaulter) are far more costly than false positives. A lower threshold maximizes recall — catching more actual defaulters — at an acceptable precision trade-off. This is a deliberate, domain-aware decision.
+#### Why Threshold = 0.30?
+
+In credit risk prediction:
+
+- Missing a real defaulter (**False Negative**) can lead to major financial losses
+- Incorrectly flagging a safe customer (**False Positive**) is comparatively less costly
+
+Therefore, the system prioritizes **Recall** to detect as many risky customers as possible.
+
+This threshold was selected to maximize business impact rather than simply maximizing accuracy.
 
 ---
 
 ## 📊 Model Performance
 
-### Comparison at Threshold = 0.30
+### Final Model Comparison
 
 | Model | Recall | Precision | F1 Score | ROC-AUC |
 |---|---|---|---|---|
-| 🥇 **Stacking Ensemble** | **57.1%** | **46.8%** | **51.4%** | **76.2%** |
+| 🥇 Stacking Ensemble | **57.1%** | **46.8%** | **51.4%** | **76.2%** |
 | ⚡ XGBoost | 55.8% | 47.2% | 51.1% | 75.8% |
 | 🔦 LightGBM | 54.9% | 47.5% | 51.0% | 75.5% |
 | 🌲 Random Forest | 52.3% | 48.1% | 50.1% | 74.9% |
 
-### Why Recall Is the Priority Metric
+---
 
+## 🎯 Why Recall Is the Most Important Metric
+
+```text
+Business Scenario: Credit Risk Prediction
+
+False Negative:
+A risky customer is predicted as safe
+→ Potential financial loss for the bank
+
+False Positive:
+A safe customer is predicted as risky
+→ Manual review required
+
+Cost of False Negative >>> Cost of False Positive
 ```
-Business Context: Bank Credit Risk Department
 
-FALSE NEGATIVE (miss a defaulter)     → Bank absorbs the full unpaid balance
-FALSE POSITIVE (flag a non-defaulter) → Customer is reviewed; minor inconvenience
+### Final Business Decision
 
-Cost of False Negative >> Cost of False Positive
+The system was intentionally optimized for **high recall** to identify the maximum number of potential defaulters while maintaining acceptable precision.
 
-Therefore: MAXIMIZE RECALL — catch as many actual defaulters as possible
-```
+This reflects a real-world financial risk management strategy used in banking and lending systems.
+
+---
 
 ---
 
