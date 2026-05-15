@@ -21,11 +21,8 @@
 <br/>
 
 [![Live API](https://img.shields.io/badge/🚀_Live_API-Online-brightgreen?style=for-the-badge)](http://3.109.32.46:8000/docs)
-
 [![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](http://3.109.32.46:8000/docs)
-
 [![Health Check](https://img.shields.io/badge/💚_Health_Check-Healthy-success?style=for-the-badge)](http://3.109.32.46:8000/health)
-
 [![Docker Hub](https://img.shields.io/badge/🐳_Docker_Hub-vikash4122002-2496ED?style=for-the-badge)](https://hub.docker.com/r/vikash4122002/credit-default-api)
 
 </div>
