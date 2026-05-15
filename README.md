@@ -256,18 +256,18 @@ Therefore: MAXIMIZE RECALL — catch as many actual defaulters as possible
 
 > 💡 **To add screenshots:** Create a `screenshots/` folder in your repo root, add the four images above, and they will render automatically here.
 
----
-
 ## 🔌 API Endpoints
 
-> Replace `<EC2-PUBLIC-IP>` with your current AWS EC2 public IP in all URLs below.
+> Current AWS EC2 Public IP: `3.109.32.46`
 
 ### 1. Health Check
+
 ```http
-GET http://<EC2-PUBLIC-IP>:8000/health
+GET http://3.109.32.46:8000/health
 ```
 
 **Response:**
+
 ```json
 {
   "status": "healthy",
@@ -275,19 +275,27 @@ GET http://<EC2-PUBLIC-IP>:8000/health
 }
 ```
 
+---
+
 ### 2. Interactive Swagger Docs
+
 ```http
-GET http://<EC2-PUBLIC-IP>:8000/docs
+GET http://3.109.32.46:8000/docs
 ```
+
 > Full interactive API — try predictions directly in the browser. No Postman or code required.
 
+---
+
 ### 3. Single Prediction
+
 ```http
-POST http://<EC2-PUBLIC-IP>:8000/api/v1/predict
+POST http://3.109.32.46:8000/api/v1/predict
 Content-Type: application/json
 ```
 
 **Request Body:**
+
 ```json
 {
   "features": [
@@ -301,6 +309,7 @@ Content-Type: application/json
 ```
 
 **Response:**
+
 ```json
 {
   "prediction": 0,
@@ -310,13 +319,17 @@ Content-Type: application/json
 }
 ```
 
+---
+
 ### 4. Batch Prediction
+
 ```http
-POST http://<EC2-PUBLIC-IP>:8000/api/v1/predict_batch
+POST http://3.109.32.46:8000/api/v1/predict_batch
 Content-Type: application/json
 ```
 
 **Request Body:**
+
 ```json
 {
   "customers": [
