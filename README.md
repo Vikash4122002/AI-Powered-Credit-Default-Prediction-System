@@ -10,7 +10,7 @@
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com/)
 
-[![AWS](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+[![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
@@ -18,21 +18,21 @@
 
 [![LightGBM](https://img.shields.io/badge/LightGBM-2ECC71?style=for-the-badge&logo=python&logoColor=white)](#)
 
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <br/>
 
-> **AI-powered credit default prediction system using Stacking Ensemble Machine Learning, FastAPI, Docker, AWS EC2, and Streamlit.**
+> **30,000 credit card clients · Stacking Ensemble Machine Learning · FastAPI REST API · Dockerized Deployment · AWS EC2 Hosting · 76.2% ROC-AUC**
 
 <br/>
 
-[![Live API](https://img.shields.io/badge/🚀_Live_API-EC2_Deployed-brightgreen?style=for-the-badge)](http://3.109.32.46:8000/docs)
+[![Live API](https://img.shields.io/badge/🚀_Live_API-Online-brightgreen?style=for-the-badge)](http://3.109.32.46:8000/docs)
 
 [![Swagger Docs](https://img.shields.io/badge/📖_Swagger_Docs-Available-blue?style=for-the-badge)](http://3.109.32.46:8000/docs)
 
-[![Health Check](https://img.shields.io/badge/💚_Health_Check-Online-success?style=for-the-badge)](http://3.109.32.46:8000/health)
+[![Health Check](https://img.shields.io/badge/💚_Health_Check-Healthy-success?style=for-the-badge)](http://3.109.32.46:8000/health)
 
 [![Docker Hub](https://img.shields.io/badge/🐳_Docker_Hub-vikash4122002-2496ED?style=for-the-badge)](https://hub.docker.com/r/vikash4122002/credit-default-api)
 
