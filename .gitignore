@@ -86,10 +86,9 @@ dist/
 *.onnx
 
 # ============================================
-# Model Directories
+# Ignore Deployment Model Folder
 # ============================================
 
-models/
 deployment_api/models/
 
 # ============================================
@@ -100,18 +99,24 @@ data/raw/
 data/processed/
 
 # ============================================
-# Training Artifacts
+# Ignore Excel Files
 # ============================================
 
-*.csv
 *.xlsx
 *.xls
 
 # ============================================
-# Images Generated During Training
+# Allow Model Evaluation Images & CSV
 # ============================================
 
-*.png
+!models/
+!models/*.png
+!models/*.csv
+
+# ============================================
+# Ignore JPG/JPEG Images
+# ============================================
+
 *.jpg
 *.jpeg
 
