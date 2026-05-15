@@ -58,6 +58,8 @@ This is an **end-to-end deployed ML project** that predicts credit card default 
 
 This project covers a real-world financial risk workflow — going from raw data all the way to a live, accessible prediction API.
 
+> Built and deployed an end-to-end machine learning system for credit default prediction using Stacking Ensemble models, FastAPI, Docker, AWS EC2, and Streamlit.
+
 | Dimension | Detail |
 |---|---|
 | **Dataset** | UCI Credit Card Default Dataset (30,000 clients) |
@@ -69,6 +71,8 @@ This project covers a real-world financial risk workflow — going from raw data
 | **Deployment** | Docker + AWS EC2 |
 | **Frontend** | Streamlit + Plotly |
 | **Business Goal** | Minimize false negatives — catch every likely defaulter |
+
+Built with production-oriented engineering, cloud deployment, and real-world ML workflow design.
 
 ---
 
@@ -87,6 +91,7 @@ This project covers a real-world financial risk workflow — going from raw data
 | 💻 **GitHub Repository** | https://github.com/vikash4122002/AI-Powered-Credit-Default-Prediction-System |
 
 ---
+
 ## 🏆 Key Results at a Glance
 
 <div align="center">
@@ -107,6 +112,9 @@ This project covers a real-world financial risk workflow — going from raw data
 </div>
 
 ---
+
+## 🏗️ System Architecture
+
 
 ## 🏗️ System Architecture
 
