@@ -958,7 +958,7 @@ streamlit run app.py
 
 ## Vikash Kumar
 
-B.Tech ECE · Machine Learning · FastAPI · Docker · AWS · Streamlit · MLOps
+B.Tech · Machine Learning · FastAPI · Docker · AWS · Streamlit · MLOps
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vikash4122002)
 
